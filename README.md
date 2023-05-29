@@ -1,5 +1,8 @@
 # ML-MaliciousConnections-Classification
-Classification of network connection events with Random Forest and Elastic-Net Regression in R and Python 
+Classification of network connection events with Random Forest and Elastic-Net Regression in R and Python
+
+### * the reporting and plots are based on the models developed in R
+### ** i have also mirrored the models into Python code for compatibility with different business requirements
 
 ## 1. INTRODUCTION
 This project aims to develop an early warning system for a cyber-security department to detect potential network attacks. Leveraging machine learning models, the goal is to classify real-time network events as either malicious or non-malicious. The challenge lies in the rarity of confirmed malicious events, accounting for less than 1% of all logged network events, and the need to minimize both false positives and negatives due to their significant implications. Two machine learning algorithms, Random Forest and Elastic-Net Regression will be tested and evaluated to determine the most accurate incident detection model.
