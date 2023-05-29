@@ -1,5 +1,5 @@
-# ML-MaliciousConnections-Classification
-Classification of network connection events with Random Forest and Elastic-Net Regression in R and Python
+# ML-Threat-Detection
+Prediction of malicious network connection events with Random Forest and Elastic-Net Regression in R and Python
 
 ### * the reporting and plots are based on the models developed in R
 ### ** i have also mirrored the models into Python code for compatibility with different business requirements
