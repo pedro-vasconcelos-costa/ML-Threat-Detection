@@ -1,8 +1,9 @@
 # ML-Threat-Detection
 Prediction of malicious network connection events with Random Forest and Elastic-Net Regression in R and Python
 
-### * the reporting and plots are based on the models developed in R
-### ** i have also mirrored the models into Python code for compatibility with different business requirements
+### * This report and plots are based on models developed in R.
+### ** Similar models have been implemented in Python to accommodate different business requirements.
+### *** In Python, certain libraries or methods used require one-hot encoding of categorical features. This process increases the dimensionality of the data and can lead to increased model complexity and potential overfitting, which may degrade model performance. As a result, the Python models showed slightly lower performance on certain metrics compared to the R models. However, they still exhibited similar trends and patterns as observed in the R models.
 
 ## 1. INTRODUCTION
 This project aims to develop an early warning system for a cyber-security department to detect potential network attacks. Leveraging machine learning models, the goal is to classify real-time network events as either malicious or non-malicious. The challenge lies in the rarity of confirmed malicious events, accounting for less than 1% of all logged network events, and the need to minimize both false positives and negatives due to their significant implications. Two machine learning algorithms, Random Forest and Elastic-Net Regression will be tested and evaluated to determine the most accurate incident detection model.
