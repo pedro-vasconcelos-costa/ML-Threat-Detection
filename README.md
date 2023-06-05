@@ -1,8 +1,8 @@
 # ML-Threat-Detection
 Prediction of malicious network connection events with Random Forest and Elastic-Net Regression in R and Python
 
-### * This report and plots are based on models developed in R.
-### ** Similar models have been implemented in Python to accommodate different business requirements.
+### * This report and plots are based on the models developed in R.
+### ** I have also implemented similar models in Python to accommodate different business requirements.
 ### *** In Python, certain libraries or methods used require one-hot encoding of categorical features. This process increases the dimensionality of the data and can lead to increased model complexity and potential overfitting, which may degrade model performance. As a result, the Python models showed slightly lower performance on certain metrics compared to the R models. However, they still exhibited similar trends and patterns as observed in the R models.
 
 ## 1. INTRODUCTION
